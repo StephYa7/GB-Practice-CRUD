@@ -1,6 +1,5 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¥«ãùÿÿÿÿ8Ãýô÷Õ1
-]	java:S125"<This block of commented-out lines of code should be removed.(±´æŠÿÿÿÿÿ8Õýô÷Õ1
-]	java:S1259"<This block of commented-out lines of code should be removed.(…Ì¤Èÿÿÿÿÿ8Ýýô÷Õ1
-t
-java:S1128"RRemove this unused import 'org.springframework.web.bind.annotation.DeleteMapping'.(­ìÎªþÿÿÿÿ8¡ÍÒøÕ1
+m
+java:S1192*"PDefine a constant instead of duplicating this literal "redirect:/users" 3 times.(Ñ“é8ü¸ÌùÕ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²¥«ãùÿÿÿÿ8þ¸ÌùÕ1
+]	java:S125"<This block of commented-out lines of code should be removed.(±´æŠÿÿÿÿÿ8Ž¹ÌùÕ1

@@ -1,11 +1,13 @@
 package com.example.empl4sem2CRUD.controllers;
 
 import com.example.empl4sem2CRUD.model.User;
+import com.example.empl4sem2CRUD.repositories.UserRepository;
 import com.example.empl4sem2CRUD.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
@@ -47,16 +49,18 @@ public class UserController {
     }
 
     @GetMapping("/user-update/{id}")
-    public String updateUser(@PathVariable("id") int id, Model model) {
+    public String updateUserById(@PathVariable("id") int id, Model model) {
         User user = userService.getOne(id);
         model.addAttribute("user", user);
         return "user-update";
     }
 
-//    @PostMapping("/user-update")
-//    public User update(User user){
-//
-//    }
+    @PostMapping("/user-update")
+    public String update(@ModelAttribute("user") User user) {
+
+        userService.updateUser(user);
+        return "redirect:/users";
+    }
 
 
 }

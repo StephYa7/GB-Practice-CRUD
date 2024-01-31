@@ -1,10 +1,4 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—­ÇÆùÿÿÿÿ8¾¢ŠøÕ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—­ÇÆùÿÿÿÿ8ŠšÚùÕ1
 S
-java:S1874,"6Remove this use of "queryForObject"; it is deprecated.(ÂÌí®8™ùŠøÕ1
-`
-java:S1128">Remove this unused import 'org.apache.catalina.mapper.Mapper'.(§€Ãàúÿÿÿÿ8‘ö‹øÕ1
-u
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8’ö‹øÕ1
-f
-java:S1128"DRemove this unused import 'org.springframework.jdbc.core.RowMapper'.(¦¬ÀÙùÿÿÿÿ8’ö‹øÕ1
+java:S1874*"6Remove this use of "queryForObject"; it is deprecated.(ÂÌí®8›šÚùÕ1

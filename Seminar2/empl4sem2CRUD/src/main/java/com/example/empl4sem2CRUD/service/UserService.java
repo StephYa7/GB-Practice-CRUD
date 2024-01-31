@@ -15,11 +15,11 @@ public class UserService {
     }
 
 
-    public List<User> findAll(){
+    public List<User> findAll() {
         return userRepository.findAll();
     }
 
-    public User saveUser(User user){
+    public User saveUser(User user) {
         return userRepository.save(user);
     }
 
@@ -30,5 +30,9 @@ public class UserService {
 
     public User getOne(int id) {
         return userRepository.getById(id);
+    }
+
+    public void updateUser(User user) {
+        userRepository.update(user);
     }
 }
